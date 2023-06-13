@@ -4,6 +4,10 @@
     margin-right: 5%;
 }
 
+p {
+    font-size: 20px;
+}
+
 .page1 {
     background-color: rgb(181, 250, 159);
 }
@@ -58,12 +62,12 @@
 }
 
 
-.page2, .page3, .page4, .page5, .page7 {
-    background-color: rgb(191, 247, 198);
+.page2, .page3, .page4, .page5, .page7, .page8, .page9, .page10 {
+    background-color: rgba(214, 238, 217, 0.39);
 }
 
 .topPartPage2 {
-    background-color: rgb(191, 247, 198);
+    background-color: rgb(214, 238, 217);
     display: grid;
     grid-template-columns: 5fr 1fr;
 }
@@ -122,3 +126,24 @@
     column-gap: 200px;
     text-align: center;
 }
+
+.signatureOfClientsPage8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.tableOfPage8, th, td {
+    border: 1px solid rgba(121, 151, 124, 0.568);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.page8TableTh {
+    background-color: rgba(243, 154, 52, 0.808);
+}
+
+
+/* rgba(91, 209, 130, 0.822) */
+/* rgba(216, 212, 208, 0.884) */
+/* rgb(181, 186, 190) */ 
